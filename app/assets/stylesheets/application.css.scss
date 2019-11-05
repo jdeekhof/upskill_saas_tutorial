@@ -29,6 +29,12 @@ h1, h2, h3 {font-family: "Open Sans", sans-serif};
     & :hover {color:white;
     opacity:0.75;}
 }
+
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
 .home-callout {
     background: #E0EAFC;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
