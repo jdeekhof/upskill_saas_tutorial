@@ -24,13 +24,18 @@ gem 'jbuilder', '2.5.0'
 # gem 'bcrypt', '3.1.7'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
 #Use Twitter bootstrap library for frontend UI and Layout
 gem 'bootstrap-sass', '3.3.7'
+
 #Use Font Awesome Sass Gem for Icons
 gem 'font-awesome-sass', '4.6.2'
 
 #Use Hirb gem for better console data presentation
 gem 'hirb', '0.7.3'
+
+#Use Devise gem for User Authetication
+gem 'devise', '4.2'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
