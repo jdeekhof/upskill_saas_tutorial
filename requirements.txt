@@ -1,0 +1,5 @@
+Memberships 
+ User shopuld see link for Basic Plan on the homepage
+ User should also see link for the Pro Plan 
+ Basic plan link should point to the regular Devise signup 
+ Proplan link needs to link to  a custom signup form with CC info
