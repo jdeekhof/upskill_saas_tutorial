@@ -25,6 +25,12 @@ gem 'jbuilder', '2.5.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+#Use Stripe for Payment Processing
+gem 'stripe', '1.48.0'
+
+#Use Figaro for ENV variables
+gem 'figaro', '1.1.1'
+
 #Use Twitter bootstrap library for frontend UI and Layout
 gem 'bootstrap-sass', '3.3.7'
 
