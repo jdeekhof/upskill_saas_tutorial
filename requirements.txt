@@ -3,3 +3,12 @@ Memberships
  User should also see link for the Pro Plan 
  Basic plan link should point to the regular Devise signup 
  Proplan link needs to link to  a custom signup form with CC info
+ 
+ Stripe Integration
+  Users should have a stripe customer token in table 
+  Javascript to prevent pro form submission
+  and instead send card info to stripe. 
+  stripe sends back the card token
+  JS should send userfields and card token to rails app, rails decides 1 or 2 plan id
+  Once validated rails should send user info and card token to stripe and stripe will send back a customer token
+  Save the user and token to database
