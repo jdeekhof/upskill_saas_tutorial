@@ -25,7 +25,7 @@ gem 'jbuilder', '2.5.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 #Use Twitter bootstrap library for frontend UI and Layout
-gem 'bootstrap-sass', '3.3.7'
+gem 'bootstrap-sass', '3.4.1'
 #Use Font Awesome Sass Gem for Icons
 gem 'font-awesome-sass', '4.6.2'
 
